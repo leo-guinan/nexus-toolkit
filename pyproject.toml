@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nexus-toolkit"
+version = "0.1.0"
+description = ""
+authors = ["leo-guinan <leo@copy.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.1.5"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
